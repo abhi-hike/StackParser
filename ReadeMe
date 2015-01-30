@@ -1,0 +1,12 @@
+Steps for grouping Stacktrace 
+
+1. add the exported csv file in the folder
+2. rename the file to input.csv
+3. open terminal
+4. cd /path/to/parser
+5. g++ StackTraceParser.cpp -o StackParser (you can skip this step after first use)
+6. run ./StackParser
+7. open the output.csv file
+
+NOTE: Older Output.csv file will be overwritten. So please make a copy of output.csv file before using this.
+
